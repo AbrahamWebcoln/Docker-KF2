@@ -17,7 +17,7 @@ RUN /home/steam/Steam/steamcmd.sh +login anonymous +app_update 232130 +exit && \
 EXPOSE 20560/udp
 EXPOSE 27015/udp
 EXPOSE 7777/udp
-# EXPOSE 8080/tcp
+EXPOSE 8080/tcp
 EXPOSE 53292/tcp
 
 CMD /home/steam/Steam/steamapps/common/killingfloor2/Binaries/Win64/KFGameSteamServer.bin.x86_64 kf-bioticslab
