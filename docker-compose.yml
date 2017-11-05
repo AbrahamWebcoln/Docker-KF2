@@ -6,7 +6,7 @@ services:
       - "20560:20560/udp"
       - "27015:27015/udp"
       - "7777:7777/udp"
-      - "53292:53292/tcp"
+      - "8080:8080/tcp"
     volumes:
       - ./Cache:/home/steam/Steam/steamapps/common/killingfloor2/KFGame/Cache
       - ./Config:/home/steam/Steam/steamapps/common/killingfloor2/KFGame/Config
